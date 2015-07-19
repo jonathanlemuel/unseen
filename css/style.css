@@ -1,0 +1,283 @@
+h1, h2, h3, h4, p, ul, li, div, time, span, img, a, body, table, tr, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	font-weight: inherit;
+	font-style: inherit;
+	font-family: inherit;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+ul, li {
+	list-style: none;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	background: #211d1d;
+	color: #fff;
+	font-family: "Apercu Medium", Calibri, sans-serif;
+	font-size-adjust: 0.508;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 120%;
+	text-transform: lowercase;
+}
+
+.fontface > body {
+	line-height: 1.0;
+}
+
+a,
+a:hover {
+	color: #fff;
+	text-decoration: none;
+	border: 0;
+}
+
+a:hover {
+	border-bottom: 2px solid #fff;
+}
+
+#title {
+	position: absolute;
+	position: fixed;
+	top: 25px;
+	left: 35px;
+	z-index: 34;
+}
+
+#counter {
+	position: absolute;
+	position: fixed;
+	top: 35px;
+	left: 50%;
+	width: 300px;
+	margin-left: -150px;
+	z-index: 33;
+}
+
+#counter > span {
+	display: block;
+	position: absolute;
+	top: -12px;
+	font-size: 60%;
+}
+
+#days {
+	left: 65px;
+}
+
+#hours {
+	left: 118px;
+}
+
+#min {
+	left: 170px;
+}
+
+#sec {
+	left: 217px;
+}
+
+#time {
+	padding: 0 0 0 53px;
+	display: block;
+	font-size: 170%;
+}
+
+#location {
+	position: absolute;
+	position: fixed;
+	top: 25px;
+	right: 35px;
+	text-align: right;
+	z-index: 32;
+}
+
+#more {
+	position: absolute;
+	position: fixed;
+	bottom: 25px;
+	left: 35px;
+	z-index: 31;
+}
+
+#more > a {
+	
+}
+
+#social {
+	position: absolute;
+	position: fixed;
+	bottom: 25px;
+	right: 35px;
+	z-index: 30;
+	text-align: right;
+	width: 70px;
+}
+
+#social > li {
+	padding: 0 0 0 3px;
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+}
+
+#social > li > a {
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	text-indent: -9999px;
+	text-align: left;
+	background: transparent url(../img/social.png) no-repeat 0 0;
+	border: 0;
+}
+
+#social > #facebook > a {
+	background-position: 0 0;
+}
+
+#social > #facebook > a:hover {
+	background-position: 0 -28px;
+}
+
+#social > #twitter > a {
+	background-position: -29px 0;
+}
+
+#social > #twitter > a:hover {
+	background-position: -29px -28px;
+}
+
+table {
+	width: 700%;
+	height: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+td {
+	position: relative;
+	width: 14.28%;
+	height: 100%;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#front {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 20;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+#fools {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	background: transparent url(../img/unseen-footer.png) no-repeat bottom center;
+}
+
+#fools > table {
+	position: absolute;
+	width: 100%;
+}
+
+#fools td {
+	width: 100%;
+}
+
+#nuts-text {
+	z-index: 100;
+}
+
+#text {
+	width: 320px;
+	margin: auto;
+	text-align: left;
+	line-height: 1.25;
+	padding: 30px 0 180px 0;
+}
+
+#text > h4 {
+	margin: 40px 0 0 40px;
+}
+
+#text li {
+	position: relative;
+}
+
+#text li > a {
+	border: 0;
+	position: relative;
+}
+
+#text li > a:hover span {
+	border-bottom: 2px solid #fff;
+}
+
+#text li sub {
+	position: absolute;
+	top: 7px;
+	right: -100px;
+	display: none;
+	padding: 0 20px 0 10px;
+	font-size: 70%;
+}
+
+#text li sub > img {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#text li a:hover > sub {
+	display: inline;
+}
+
+#desc {
+	text-transform: none;
+}
+
+#spotlight {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #211d1d url(../img/spotlight.png) repeat -1200px -800px;
+	z-index: 10;
+}
+
+#back {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	overflow: hidden;
+}
+
+#b1 > img {
+	padding: 40px 0 0 0;
+}
+
+#b7 {
+	background-image: url(../img/bg-1.jpg);
+	background-repeat: repeat;
+	background-size: cover;
+}
